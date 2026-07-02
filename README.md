@@ -6,6 +6,14 @@ Adherent raindrops and the reflections from camera side significantly reduce the
 Therefore, Unified Removal of Raindrops and Reflections (UR$^3$) is a practical problem that requires urgent solution.
 
 ## How we capture the images
+Our RDRF dataset is captured under real scenarios deliberately constructed in controlled environments.
+For the hardware configuration, the camera is mounted on a tripod using an adjustable base, with the glass slab positioned in front of the lens.
+We connect a signal receiver onto the camera, thereby enabling remote control of the shutter.
+This wireless triggering mechanism can effectively avoid image misalignment caused by camera vibrations resulting from manual operation.
+To ensure diversity, neither the camera nor the glass is fixed. 
+They can be adjusted to simulate different shooting situations (\eg, camera-to-glass distances/angles).
+In addition, we utilize two cameras (Sony ILCE-7RM4A and Nikon D7100) with zoom lens and choose different glass thicknesses (3 mm, 5 mm, and 8 mm) to further enhance diversity. 
+
 <p align="left">
   <img width=950" src="assets/fig2-cr.png">
 </p>
