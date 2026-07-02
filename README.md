@@ -5,6 +5,11 @@ On rainy days, raindrops and reflections frequently co-occur in autonomous drivi
 Adherent raindrops and the reflections from camera side significantly reduce the visibility of captured images, and may lead to severe driving safety hazards. 
 Therefore, Unified Removal of Raindrops and Reflections (UR$^3$) is a practical problem that requires urgent solution.
 
+## How we capture the images
+<p align="left">
+  <img width=950" src="assets/fig2-cr.png">
+</p>
+
 ## Some Samples
 <p align="left">
   <img width=950" src="assets/fig3-new.png">
@@ -35,7 +40,7 @@ PolarFree addresses the challenging task of reflection removal using polarizatio
 ## Citation
 If this work is useful for your research, please cite our paper. 
 ```BibTeX
-@inproceedings{jin2024raindrop,
+@inproceedings{Liu2026ECCV-RDRF,
   title={Unified Removal of Raindrops and Reflections: A New Benchmark and A Novel Pipeline},
   author={Xingyu Liu and Zewei He and Yu Chen and Chunyu Zhu and Zixuan Chen and Xing Luo and Zhe-Ming Lu},
   booktitle={European Conference on Computer Vision (ECCV)},
