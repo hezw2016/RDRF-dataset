@@ -8,10 +8,15 @@
   </a> -->
 </p>
 
-## 📣📣📣 News
+<p align="left">
+  <img width=950" src="assets/fig1-hd.png">
+</p>
+
+## 📣 News
 - `[2026-07-02]` Dataset page is online.
 - `[2026-06-18]` Our paper is accepted by ECCV'2026.
-- `[2026-05-27]` [The Challenge on Unified Removal of Raindrops and Reflections](https://www.codabench.org/competitions/16629/) is organized in conjunction with the [LoViF 2026 workshop](https://lovif-eccv2026-workshop.github.io/) at ECCV 2026.
+- `[2026-05-27]` [The Challenge on Unified Removal of Raindrops and Reflections](https://www.codabench.org/competitions/16629/) is organized in conjunction with the [LoViF 2026 workshop](https://lovif-eccv2026-workshop.github.io/) at ECCV'2026.
+- `[2026-04]` Our [project page](https://xingyuliu00.github.io/diffur3/) is online.
 
 ## 📝 TODO
 
@@ -22,12 +27,15 @@
 - `[2026-07-03]` RDRF-training and RDRF-testing are released.
 - `[2026-07-02]` Dataset page is online. -->
 
-## Problem Definition
+
+
+## 🌟 Overview of our RDRF dataset
+###  Problem definition
 On rainy days, raindrops and reflections frequently co-occur in autonomous driving scenarios, posing challenges for onboard visual recognition systems or vehicle cameras during recording. 
 Adherent raindrops and the reflections from camera side significantly reduce the visibility of captured images, and may lead to severe driving safety hazards. 
 Therefore, Unified Removal of Raindrops and Reflections (UR$^3$) is a practical problem that requires urgent solution.
 
-## How we capture the images
+### How we capture the images
 Our RDRF dataset is captured under real scenarios deliberately constructed in controlled environments.
 For the hardware configuration, the camera is mounted on a tripod using an adjustable base, with the glass slab positioned in front of the lens.
 We connect a signal receiver onto the camera, thereby enabling remote control of the shutter.
@@ -40,7 +48,7 @@ In addition, we utilize two cameras (Sony ILCE-7RM4A and Nikon D7100) with zoom 
   <img width=950" src="assets/fig2-cr.png">
 </p>
 
-## Dataset Structure
+### Dataset Structure
 In the training and testing subsets, each ground truth image may correspond to multiple degraded images with different raindrop and reflection degradation patterns. The dataset is organized as follows:
 
 ```text
@@ -79,23 +87,28 @@ RDRF-testing/
 
 The file names indicate the correspondence between degraded images and ground truth images. For example, `001-001.png`, `001-002.png`, and `001-003.png` correspond to the same ground truth image `001.png`, but contain different raindrop and reflection degradation patterns. All images are provided at a resolution of 1080 × 720.
 
-## Some Samples
+### About RDRF-wild
+
+Coming soon.
+
+### Some Samples
 <p align="left">
   <img width=950" src="assets/fig3-new.png">
 </p>
 
-## Download
 
-### Train & Test Data
+
+### Download
+
+<!-- #### Training & Testing images -->
 
 | Dataset | Google Drive | Baidu Disk |
 | :--: | :--: | :--: |
 | RDRF-training | [Download](https://drive.google.com/file/d/13r7TljW3kAYsEOBAIGsgX00SXJ5gDRBX/view?usp=sharing) | [Download](https://pan.baidu.com/s/1GAPlRvtrZtARnWgOxP-cyA?pwd=ecxa) `ecxa` |
 | RDRF-testing | [Download](https://drive.google.com/file/d/1U_uVRfSjdOQMyPfeNQV_GOPfNCWBinrv/view?usp=sharing) | [Download](https://pan.baidu.com/s/1ES4y242PxLsIDBvu5Hveqw?pwd=3fs8) `3fs8` |
+| RDRF-wild  | coming soon | coming soon |
 
-## About RDRF-wild
 
-Coming soon.
 
 
 <!-- ## Abstract @ ECCV’2026 -->
@@ -115,7 +128,7 @@ PolarFree addresses the challenging task of reflection removal using polarizatio
 
 
 
-## Citation
+## 📰 Citation
 If our RDRF dataset is useful for your research, please cite our paper.
 ```BibTeX
 @inproceedings{Liu2026ECCV-RDRF,
@@ -125,3 +138,10 @@ If our RDRF dataset is useful for your research, please cite our paper.
   year={2026}
 }
 ```
+
+
+## 📬 Contact
+
+For any questions or inquiries, please contact:
+
+- **Zewei He**: `zeweihe@zju.edu.cn`
