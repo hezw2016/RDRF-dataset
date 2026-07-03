@@ -1,4 +1,26 @@
 # RDRF-dataset @ ECCV'2026
+<p align="justify">
+  <a href="https://arxiv.org/abs/2603.16446">
+    <img src="https://img.shields.io/badge/arXiv-2603.16446-b31b1b?style=flat-square&logo=arxiv&logoColor=white">
+  </a>
+  <!-- <a href="https://xingyuliu00.github.io/diffur3/">
+    <img src="https://img.shields.io/badge/Project%20Page-DiffUR%C2%B3-1f77b4?style=flat-square">
+  </a> -->
+</p>
+
+## 📣📣📣 News
+- `[2026-07-02]` Dataset page is online.
+- `[2026-06-18]` Our paper is accepted by ECCV'2026.
+- `[2026-05-27]` [The Challenge on Unified Removal of Raindrops and Reflections](https://www.codabench.org/competitions/16629/) is organized in conjunction with the [LoViF 2026 workshop](https://lovif-eccv2026-workshop.github.io/) at ECCV 2026.
+
+## 📝 TODO
+
+- [ ] Release RDRF-wild dataset.
+
+<!-- ##  News
+
+- `[2026-07-03]` RDRF-training and RDRF-testing are released.
+- `[2026-07-02]` Dataset page is online. -->
 
 ## Problem Definition
 On rainy days, raindrops and reflections frequently co-occur in autonomous driving scenarios, posing challenges for onboard visual recognition systems or vehicle cameras during recording. 
@@ -18,14 +40,62 @@ In addition, we utilize two cameras (Sony ILCE-7RM4A and Nikon D7100) with zoom 
   <img width=950" src="assets/fig2-cr.png">
 </p>
 
+## Dataset Structure
+In the training and testing subsets, each ground truth image may correspond to multiple degraded images with different raindrop and reflection degradation patterns. The dataset is organized as follows:
+
+```text
+RDRF-training/
+├── input/
+│   ├── 001-001.png
+│   ├── 001-002.png
+│   ├── ...
+│   ├── 002-001.png
+│   ├── 002-002.png
+│   ├── ...
+│   ├── 003-001.png
+│   └── ...
+└── gt/
+    ├── 001.png
+    ├── 002.png
+    ├── 003.png
+    └── ...
+
+RDRF-testing/
+├── input/
+│   ├── 001-001.png
+│   ├── 001-002.png
+│   ├── ...
+│   ├── 002-001.png
+│   ├── 002-002.png
+│   ├── ...
+│   ├── 003-001.png
+│   └── ...
+└── gt/
+    ├── 001.png
+    ├── 002.png
+    ├── 003.png
+    └── ...
+```
+
+The file names indicate the correspondence between degraded images and ground truth images. For example, `001-001.png`, `001-002.png`, and `001-003.png` correspond to the same ground truth image `001.png`, but contain different raindrop and reflection degradation patterns. All images are provided at a resolution of 1080 × 720.
+
 ## Some Samples
 <p align="left">
   <img width=950" src="assets/fig3-new.png">
 </p>
 
+## Download
+
+### Train & Test Data
+
+| Dataset | Google Drive | Baidu Disk |
+| :--: | :--: | :--: |
+| RDRF-training | [Download](https://drive.google.com/file/d/13r7TljW3kAYsEOBAIGsgX00SXJ5gDRBX/view?usp=sharing) | [Download](https://pan.baidu.com/s/1GAPlRvtrZtARnWgOxP-cyA?pwd=ecxa) `ecxa` |
+| RDRF-testing | [Download](https://drive.google.com/file/d/1U_uVRfSjdOQMyPfeNQV_GOPfNCWBinrv/view?usp=sharing) | [Download](https://pan.baidu.com/s/1ES4y242PxLsIDBvu5Hveqw?pwd=3fs8) `3fs8` |
+
 ## About RDRF-wild
 
-
+Coming soon.
 
 
 <!-- ## Abstract @ ECCV’2026 -->
@@ -46,7 +116,7 @@ PolarFree addresses the challenging task of reflection removal using polarizatio
 
 
 ## Citation
-If this work is useful for your research, please cite our paper. 
+If our RDRF dataset is useful for your research, please cite our paper.
 ```BibTeX
 @inproceedings{Liu2026ECCV-RDRF,
   title={Unified Removal of Raindrops and Reflections: A New Benchmark and A Novel Pipeline},
