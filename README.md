@@ -3,9 +3,12 @@
   <a href="https://arxiv.org/abs/2603.16446">
     <img src="https://img.shields.io/badge/arXiv-2603.16446-b31b1b?style=flat-square&logo=arxiv&logoColor=white">
   </a>
-  <!-- <a href="https://xingyuliu00.github.io/diffur3/">
+  <a href="https://xingyuliu00.github.io/diffur3/">
     <img src="https://img.shields.io/badge/Project%20Page-DiffUR%C2%B3-1f77b4?style=flat-square">
-  </a> -->
+  </a>
+  <a href="https://www.codabench.org/competitions/16629/">
+    <img src="https://img.shields.io/badge/Challenge-CodaBench-ff7f0e?style=flat-square">
+  </a>
 </p>
 
 <p align="left">
@@ -145,3 +148,4 @@ If our RDRF dataset is useful for your research, please cite our paper.
 For any questions or inquiries, please contact:
 
 - **Zewei He**: `zeweihe@zju.edu.cn`
+- **Xingyu Liu**: `xingyu_liu@zju.edu.cn`
