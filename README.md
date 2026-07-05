@@ -1,4 +1,30 @@
 # RDRF-dataset @ ECCV'2026
+### Paper Title: Unified Removal of Raindrops and Reflections: A New Benchmark and A Novel Pipeline
+
+<!-- <h1 align="center">
+  [ECCV 2026] Unified Removal of Raindrops and Reflections: A New Benchmark and A Novel Pipeline
+</h1>
+
+<p align="center">
+  <a href="https://scholar.google.com/citations?user=A44FpEIAAAAJ&hl">Xingyu Liu</a><sup>1,2</sup>,
+  <a href="https://scholar.google.com/citations?user=yCHs_IsAAAAJ&hl">Zewei He</a><sup>1,2,✉</sup>,
+  <a href="https://scholar.google.com/citations?user=1zl2fx0AAAAJ&hl">Yu Chen</a><sup>1,2</sup>,
+  <a href="https://scholar.google.com/citations?user=JLe57HcAAAAJ&hl">Chunyu Zhu</a><sup>3</sup>,
+  <a href="https://scholar.google.com/citations?user=pwixOhcAAAAJ">Zixuan Chen</a><sup>4</sup>,
+  <a href="https://orcid.org/0000-0002-0879-1965">Xing Luo</a><sup>2</sup>,
+  <a href="https://person.zju.edu.cn/lzmhome">Zhe-Ming Lu</a><sup>1,2</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup>Huanjiang Laboratory &nbsp;&nbsp;
+  <sup>2</sup>Zhejiang University
+  <br>
+  <sup>3</sup>Xidian University &nbsp;&nbsp;
+  <sup>4</sup>The Chinese University of Hong Kong
+  <br>
+  <sup>✉</sup> Corresponding author
+</p> -->
+
 <p align="justify">
   <a href="https://arxiv.org/abs/2603.16446"><img src="https://img.shields.io/badge/arXiv-2603.16446-b31b1b?style=flat-square&logo=arxiv&logoColor=white"></a>
   <a href="https://xingyuliu00.github.io/diffur3/"><img src="https://img.shields.io/badge/Project%20Page-DiffUR%C2%B3-1f77b4?style=flat-square"></a>
@@ -10,7 +36,7 @@
 </p>
 
 ## 📣 News
-- `[2026-07-02]` Dataset page is online.
+- `[2026-07-02]` Dataset page is online. 👉**Our RDRF dataset is made available now**👈
 - `[2026-06-18]` Our paper is accepted by ECCV'2026.
 - `[2026-05-27]` [The Challenge on Unified Removal of Raindrops and Reflections](https://www.codabench.org/competitions/16629/) is organized in conjunction with the [LoViF 2026 workshop](https://lovif-eccv2026-workshop.github.io/) at ECCV'2026.
 - `[2026-04-28]` Our [project page](https://xingyuliu00.github.io/diffur3/) is online.
