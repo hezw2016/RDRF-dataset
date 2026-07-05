@@ -16,7 +16,7 @@
 - `[2026-07-02]` Dataset page is online.
 - `[2026-06-18]` Our paper is accepted by ECCV'2026.
 - `[2026-05-27]` [The Challenge on Unified Removal of Raindrops and Reflections](https://www.codabench.org/competitions/16629/) is organized in conjunction with the [LoViF 2026 workshop](https://lovif-eccv2026-workshop.github.io/) at ECCV'2026.
-- `[2026-04]` Our [project page](https://xingyuliu00.github.io/diffur3/) is online.
+- `[2026-04-28]` Our [project page](https://xingyuliu00.github.io/diffur3/) is online.
 
 ## 📝 TODO
 
@@ -33,7 +33,7 @@
 ###  Problem definition
 On rainy days, raindrops and reflections frequently co-occur in autonomous driving scenarios, posing challenges for onboard visual recognition systems or vehicle cameras during recording. 
 Adherent raindrops and the reflections from camera side significantly reduce the visibility of captured images, and may lead to severe driving safety hazards. 
-Therefore, Unified Removal of Raindrops and Reflections (UR$^3$) is a practical problem that requires urgent solution.
+Therefore, Unified Removal of Raindrops and Reflections (UR<sup>3</sup>) is a practical problem that requires urgent solution.
 
 ### How we capture the images
 Our RDRF dataset is captured under real scenarios deliberately constructed in controlled environments.
@@ -41,7 +41,7 @@ For the hardware configuration, the camera is mounted on a tripod using an adjus
 We connect a signal receiver onto the camera, thereby enabling remote control of the shutter.
 This wireless triggering mechanism can effectively avoid image misalignment caused by camera vibrations resulting from manual operation.
 To ensure diversity, neither the camera nor the glass is fixed. 
-They can be adjusted to simulate different shooting situations (\eg, camera-to-glass distances/angles).
+They can be adjusted to simulate different shooting situations (e.g., camera-to-glass distances/angles).
 In addition, we utilize two cameras (Sony ILCE-7RM4A and Nikon D7100) with zoom lens and choose different glass thicknesses (3 mm, 5 mm, and 8 mm) to further enhance diversity. 
 
 <p align="left">
